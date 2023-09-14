@@ -66,6 +66,6 @@ Route::middleware('auth')->group(function(){
 
     Route::get('/user', [App\Http\Controllers\UserController::class, 'index'])->name('user');
 
-    
+    //8888
 });
 
